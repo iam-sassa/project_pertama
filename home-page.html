@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welkom op ons dashboard</title>
+    <link rel="icon" href="../first-project/Fonts/Boekenboost.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../first-project/css/home-page.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#home">
+                <img src="../first-project/Fonts/Boekenboost.png" alt="our logo" width="40" height="40">
+              </a>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#explore">Explore</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#fantasi">Fantasy</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#self">Self-Dev</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#histori">History</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#etc">Etc</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      <section id="home" class="home">
+        <div class="home-content">
+          <img src="../first-project/simbol/welcome.svg" alt="welcome" width="350" height=310>
+            <h3>Hello, boostie</h3>
+            <h2>Ready to get a new journey?</h2>
+            <a href="#explore">
+            <button class="btn">Let's Go</button>
+            <!-- animasi ketika pindah page -->
+            </a>
+        </div>
+    </section>
+
+    <section id="explore">
+    <div id="carouselExampleDark" class="carousel carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="../first-project/Fonts/dragonshadow.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Categories</h4>
+            <p><b>Beberapa kategori buku ditambahkan untuk memulai perjalananmu</b></p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../first-project/Fonts/history.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>It's Yours</h4>  
+            <p><b>Jadilah bijaksana dalam memilih bacaan</b></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../first-project/Fonts/science.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h4>Enjoy your ride</h4>
+            <p><b>Selamat membaca dan jangan lupa beristirahat!</b></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="fantasi">
+    <h2>Buku fantasi</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="../first-project/Fonts/fantasy1.jpeg" alt="Harry Potter">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter and the Philoshoper Stone</h5>
+            <p class="card-text">Baca dan jelajahi dunia sihir Harry Potter bersama Boekenboost</p>
+            <a href="#" class="btn btn-primary">Mulai</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="../first-project/Fonts/fantasy2.jpg" alt="Harry Potter">
+          <div class="card-body">
+            <h5 class="card-title">Percy Jackson : The Lightning Thief</h5>
+            <p class="card-text">Baca dan jelajahi dunia camp half-blood bersama Boekenboost</p>
+            <a href="#" class="btn btn-primary">Mulai</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="../first-project/Fonts/fantasy3.jpg.webp" alt="Harry Potter">
+          <div class="card-body">
+            <h5 class="card-title">The Maze Runner</h5>
+            <p class="card-text">Baca dan jelajahi dunia labirin bersama Boekenboost</p>
+            <a href="#" class="btn btn-primary">Mulai</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <section id="self">
+    <h2>Buku Self-Development</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="../first-project/Fonts/self1.jpeg" alt="How to die">
+          <div class="card-body">
+            <h5 class="card-title">How to Die</h5>
+            <p class="card-text">Baca dan selami pengalaman menjemput ajal bersama Boekenboost</p>
+            <a href="https://drive.google.com/file/d/1oafWMjriEBcCKgdhaKyRsyUddc6Gbw4k/view?usp=sharing" class="btn btn-primary">Mulai</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="../first-project/Fonts/self2.jpg" alt="attitude book">
+          <div class="card-body">
+            <h5 class="card-title">The Attitude Book</h5>
+            <p class="card-text">Belajar dan perbaiki tingkah laku dari Simon Tyler bersama Boekenboost</p>
+            <a href="https://drive.google.com/file/d/1onjhf2AOL4DI7AqpMHg_K4CJU5AFcLYH/view?usp=sharing" class="btn btn-primary">Mulai</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="../first-project/Fonts/girls.jpg.webp" alt="Harry Potter">
+          <div class="card-body">
+            <h5 class="card-title">The Alpha Girls Guide</h5>
+            <p class="card-text">Menjadi perempuan dominan dari Henry Manampiring bersama Boekenboost</p>
+            <a href="https://drive.google.com/file/d/1gb0mYjNymzLU0BHJFXOKZcg9KoljimUe/view?usp=sharing" class="btn btn-primary">Mulai</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="histori">
+  <h2>Buku sejarah</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="../first-project/Fonts/history1.jpg" alt="Harry Potter">
+        <div class="card-body">
+          <h5 class="card-title">Sejarah Dunia Yang Disembunyikan</h5>
+          <p class="card-text">Menguak misteri sejarah-sejarah yang tidak dirahasiakan bersama Boekenboost</p>
+          <a href="#" class="btn btn-primary">Mulai</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="../first-project/Fonts/history2.jpg.webp" alt="Harry Potter">
+        <div class="card-body">
+          <h5 class="card-title">Yang tak Terbakar Badai Api</h5>
+          <p class="card-text">Menyelami masa sejarah dengan tentara Israel dan pejuang palestina bersama Boekenboost</p>
+          <a href="#" class="btn btn-primary">Mulai</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="../first-project/Fonts/history3.jpg" alt="Harry Potter">
+        <div class="card-body">
+          <h5 class="card-title">Sapiens</h5>
+          <p class="card-text">Mendalami sejarah munculnya peradaban manusia bersama Boekenboost</p>
+          <a href="#" class="btn btn-primary">Mulai</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="etc">
+  <h2>Lain-lain</h2>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="../first-project/Fonts/carl.jpg" alt="Carl Sagan">
+        <div class="card-body">
+          <h5 class="card-title">Carl Sagan</h5>
+          <p class="card-text">Baca dan jelajahi dunia kosmos bersama Boekenboost</p>
+          <a href="https://drive.google.com/file/d/1osVkf-ukHpsYr2AIvM8R9AoogsampJpU/view?usp=sharing" class="btn btn-primary">Mulai</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--Footer-->
+<section id="footer">
+  <div class="footer container">
+      <div class="brand"><img src="../first-project/Fonts/Boekenboost.png"></div>
+      <h2>Favourite place for an imaginative mind</h2>
+      <div class="social-icon">
+          <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/plumpy/24/000000/instagram-new--v1.png"/></a>
+          </div>
+          <div class="social-item">
+              <img src="https://img.icons8.com/material-two-tone/24/000000/youtube-play.png"/>
+          </div>
+          <div class="social-item">
+              <img src="https://img.icons8.com/material-two-tone/24/000000/twitter.png"/></a>
+          </div>
+      </div>
+      <p>Copyright © 2022 Stourlie. All rights reserved</p>
+  </div>
+
+</section>
+<!--Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans&family=Noto+Sans+Javanese&family=PT+Serif&family=Yrsa:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Caveat', cursive;
+	scroll-behavior: smooth;
+}
+p{
+	font-family: 'Yrsa', serif;
+	font-size: 2rem;
+	color: black
+	letter-spacing: 0.5rem;
+}
+
+#header {
+	position: fixed;
+	overflow: hidden;
+	height: auto;
+	width: 100vw;
+	left: 0;
+	top: 0;
+
+}
